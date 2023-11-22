@@ -253,6 +253,7 @@ public class LinkedList<E> implements List<E> {
                 i.setContent(element);
                 return tmp;
             }
+            j++;
         }
         return null;
     }
